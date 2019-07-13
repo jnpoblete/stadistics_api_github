@@ -1,0 +1,34 @@
+{
+  "name": "stadistics_api",
+  "version": "1.0.0",
+  "description": "Tutorial: https://www.youtube.com/watch?v=263xt_4mBNc",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development ./stadistics_api/frontend/src/index.js --output ./stadistics_api/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./stadistics_api/frontend/src/index.js --output ./stadistics_api/frontend/static/frontend/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/programas.jpoblete/stadistics_api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/programas.jpoblete/stadistics_api/issues"
+  },
+  "homepage": "https://gitlab.com/programas.jpoblete/stadistics_api#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "weak-key": "^1.0.1",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
+  }
+}
